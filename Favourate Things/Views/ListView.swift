@@ -10,9 +10,23 @@ import SwiftUI
 struct ListView: View {
     var body: some View {
         List {
-            Text("Lake")
-            Text("Food")
-            Text("Winter")
+            NavigationLink(destination: {
+                LakeView()
+            }, label: {
+                Text("Lake")
+            })
+            
+            NavigationLink(destination: {
+                FoodView()
+            }, label: {
+                Text("Food")
+            })
+            
+            NavigationLink(destination: {
+                WinterView()
+            }, label: {
+                Text("Winter")
+            })
         }
         .navigationTitle("My Favourite Things")
     }

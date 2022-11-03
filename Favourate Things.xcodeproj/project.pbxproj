@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAAB88ED2913F76C00C81894 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88EC2913F76C00C81894 /* FoodView.swift */; };
+		CAAB88EF2913F7A900C81894 /* WinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88EE2913F7A900C81894 /* WinterView.swift */; };
+		CAAB88F12913FAED00C81894 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88F02913FAED00C81894 /* ListView.swift */; };
 		CAEA15B6290C371100F4C554 /* Favourate_ThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA15B5290C371100F4C554 /* Favourate_ThingsApp.swift */; };
-		CAEA15B8290C371100F4C554 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA15B7290C371100F4C554 /* ContentView.swift */; };
+		CAEA15B8290C371100F4C554 /* LakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA15B7290C371100F4C554 /* LakeView.swift */; };
 		CAEA15BA290C371300F4C554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEA15B9290C371300F4C554 /* Assets.xcassets */; };
 		CAEA15BD290C371300F4C554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEA15BC290C371300F4C554 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAAB88EC2913F76C00C81894 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		CAAB88EE2913F7A900C81894 /* WinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterView.swift; sourceTree = "<group>"; };
+		CAAB88F02913FAED00C81894 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CAEA15B2290C371100F4C554 /* Favourate Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favourate Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEA15B5290C371100F4C554 /* Favourate_ThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourate_ThingsApp.swift; sourceTree = "<group>"; };
-		CAEA15B7290C371100F4C554 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAEA15B7290C371100F4C554 /* LakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakeView.swift; sourceTree = "<group>"; };
 		CAEA15B9290C371300F4C554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAEA15BC290C371300F4C554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +38,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAAB88EB2913F68800C81894 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAAB88F02913FAED00C81894 /* ListView.swift */,
+				CAEA15B7290C371100F4C554 /* LakeView.swift */,
+				CAAB88EC2913F76C00C81894 /* FoodView.swift */,
+				CAAB88EE2913F7A900C81894 /* WinterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CAEA15A9290C371100F4C554 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				CAEA15B5290C371100F4C554 /* Favourate_ThingsApp.swift */,
-				CAEA15B7290C371100F4C554 /* ContentView.swift */,
+				CAAB88EB2913F68800C81894 /* Views */,
 				CAEA15B9290C371300F4C554 /* Assets.xcassets */,
 				CAEA15BB290C371300F4C554 /* Preview Content */,
 			);
@@ -137,8 +154,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAEA15B8290C371100F4C554 /* ContentView.swift in Sources */,
+				CAAB88ED2913F76C00C81894 /* FoodView.swift in Sources */,
+				CAAB88F12913FAED00C81894 /* ListView.swift in Sources */,
+				CAEA15B8290C371100F4C554 /* LakeView.swift in Sources */,
 				CAEA15B6290C371100F4C554 /* Favourate_ThingsApp.swift in Sources */,
+				CAAB88EF2913F7A900C81894 /* WinterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +269,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

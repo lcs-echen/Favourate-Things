@@ -10,6 +10,10 @@
 		CAAB88ED2913F76C00C81894 /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88EC2913F76C00C81894 /* FoodView.swift */; };
 		CAAB88EF2913F7A900C81894 /* WinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88EE2913F7A900C81894 /* WinterView.swift */; };
 		CAAB88F12913FAED00C81894 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88F02913FAED00C81894 /* ListView.swift */; };
+		CAAB88F329144D4C00C81894 /* SchoolLifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88F229144D4C00C81894 /* SchoolLifeView.swift */; };
+		CAAB88F529144D7400C81894 /* ShoppingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88F429144D7400C81894 /* ShoppingView.swift */; };
+		CAAB88F729144DF600C81894 /* PuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88F629144DF600C81894 /* PuzzleView.swift */; };
+		CAAB88F929154FA100C81894 /* ArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAB88F829154FA100C81894 /* ArtView.swift */; };
 		CAEA15B6290C371100F4C554 /* Favourate_ThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA15B5290C371100F4C554 /* Favourate_ThingsApp.swift */; };
 		CAEA15B8290C371100F4C554 /* LakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEA15B7290C371100F4C554 /* LakeView.swift */; };
 		CAEA15BA290C371300F4C554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAEA15B9290C371300F4C554 /* Assets.xcassets */; };
@@ -20,6 +24,10 @@
 		CAAB88EC2913F76C00C81894 /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
 		CAAB88EE2913F7A900C81894 /* WinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterView.swift; sourceTree = "<group>"; };
 		CAAB88F02913FAED00C81894 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		CAAB88F229144D4C00C81894 /* SchoolLifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolLifeView.swift; sourceTree = "<group>"; };
+		CAAB88F429144D7400C81894 /* ShoppingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingView.swift; sourceTree = "<group>"; };
+		CAAB88F629144DF600C81894 /* PuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleView.swift; sourceTree = "<group>"; };
+		CAAB88F829154FA100C81894 /* ArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtView.swift; sourceTree = "<group>"; };
 		CAEA15B2290C371100F4C554 /* Favourate Things.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Favourate Things.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAEA15B5290C371100F4C554 /* Favourate_ThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourate_ThingsApp.swift; sourceTree = "<group>"; };
 		CAEA15B7290C371100F4C554 /* LakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LakeView.swift; sourceTree = "<group>"; };
@@ -43,8 +51,12 @@
 			children = (
 				CAAB88F02913FAED00C81894 /* ListView.swift */,
 				CAEA15B7290C371100F4C554 /* LakeView.swift */,
+				CAAB88F229144D4C00C81894 /* SchoolLifeView.swift */,
 				CAAB88EC2913F76C00C81894 /* FoodView.swift */,
+				CAAB88F429144D7400C81894 /* ShoppingView.swift */,
+				CAAB88F629144DF600C81894 /* PuzzleView.swift */,
 				CAAB88EE2913F7A900C81894 /* WinterView.swift */,
+				CAAB88F829154FA100C81894 /* ArtView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,10 +166,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAB88F729144DF600C81894 /* PuzzleView.swift in Sources */,
+				CAAB88F329144D4C00C81894 /* SchoolLifeView.swift in Sources */,
 				CAAB88ED2913F76C00C81894 /* FoodView.swift in Sources */,
 				CAAB88F12913FAED00C81894 /* ListView.swift in Sources */,
 				CAEA15B8290C371100F4C554 /* LakeView.swift in Sources */,
+				CAAB88F529144D7400C81894 /* ShoppingView.swift in Sources */,
 				CAEA15B6290C371100F4C554 /* Favourate_ThingsApp.swift in Sources */,
+				CAAB88F929154FA100C81894 /* ArtView.swift in Sources */,
 				CAAB88EF2913F7A900C81894 /* WinterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

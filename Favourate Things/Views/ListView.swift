@@ -27,6 +27,30 @@ struct ListView: View {
             }, label: {
                 Text("Winter")
             })
+            
+            NavigationLink(destination: {
+                SchoolLifeView()
+            }, label: {
+                Text("School Life")
+            })
+            
+            NavigationLink(destination: {
+                ShoppingView()
+            }, label: {
+                Text("Shopping")
+            })
+            
+            NavigationLink(destination: {
+                PuzzleView()
+            }, label: {
+                Text("Puzzle")
+            })
+            
+            NavigationLink(destination: {
+                ArtView()
+            }, label: {
+                Text("Instrumental Performance")
+            })
         }
         .navigationTitle("My Favourite Things")
     }

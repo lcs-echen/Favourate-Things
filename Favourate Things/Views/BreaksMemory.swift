@@ -1,36 +1,36 @@
 //
-//  ListView .swift
+//  BreaksMemory.swift
 //  Favourate Things
 //
-//  Created by Evelyn Chen on 2022-11-03.
+//  Created by Evelyn Chen on 2022-11-04.
 //
 
 import SwiftUI
 
-struct ListView: View {
+struct BreaksMemoryView: View {
     var body: some View {
         List {
             NavigationLink(destination: {
-                SchoolMemoryView()
+                WinterView()
             }, label: {
-                Text("School Memory")
+                Text("Winter")
             })
             
             NavigationLink(destination: {
-                BreaksMemoryView()
+                ShoppingView()
             }, label: {
-                Text("Breaks Memory")
+                Text("Shopping")
             })
-        
+            
         }
-        .navigationTitle("My Favourite Things")
+        .navigationTitle("Breaks Memory")
     }
 }
 
-struct ListView__Previews: PreviewProvider {
+struct BreaksMemoryPreviews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ListView()
+            BreaksMemoryView()
         }
     }
 }

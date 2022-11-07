@@ -18,7 +18,7 @@ struct PuzzleView: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("Last year, Aniece, Alvina, Daisy and I finished a 1000 pieces of puzzle, which costed us only 7 days.")
+                Text("Last year, Aniece, Alvina, Daisy and I finished a 1000 pieces of puzzle, which costed us only 7 days. At that time, we were so keen to puzzle. Once we have time, we all went to library for the puzzle. ")
                     .padding()
                 
                 Spacer()

@@ -15,7 +15,7 @@ struct WinterView: View {
                     .resizable()
                     .scaledToFit()
                 
-                Text("It's the first snowman I built with my mom! With 2 days of hard work, I made two regular shaped sphere.")
+                Text("It's the first snowman I built with my mom! With 2 days of hard work, I made two regular shaped sphere in the first day. My mom helped me a lot. She gathered snow from the outside to the balcony for me. In the second day, we mainly focused on the decoration part. My mom gave me many good ideas, including the red hat from LCS and the scarf.")
                     .padding()
                 
                 Spacer()

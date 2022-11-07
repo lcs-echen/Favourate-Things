@@ -14,9 +14,7 @@ struct LakeView: View {
     var body: some View {
         ScrollView {
             VStack (alignment: .leading) {
-                Image("Lake")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "Lake", caption: "The lake in LCS is beautiful.", credit: "Photo Credit: Evelyn")
                 
                 Text("The sunset in Lakefield College School is so beautiful!")
                     .padding()

@@ -11,9 +11,7 @@ struct FoodView: View {
     var body: some View {
         ScrollView {
             VStack (alignment: .leading) {
-                Image("Pudding")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "Pudding", caption: "The lake in LCS is beautiful.", credit: "Photo Credit: Evelyn")
                 
                 Text("Last weekend, Nina and I made 12 puddings. They are really dilicious. We spent like about 3 hours in the afternoon on Sunday.Because we were both very boring and we both like cooking. ")
                     .padding()

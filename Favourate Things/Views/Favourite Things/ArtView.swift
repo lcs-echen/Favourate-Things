@@ -11,9 +11,7 @@ struct ArtView: View {
     var body: some View {
         ScrollView {
             VStack (alignment: .leading) {
-                Image("Art")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "Art", caption: "The lake in LCS is beautiful.", credit: "Photo Credit: Evelyn")
                 
                 Text(
                     

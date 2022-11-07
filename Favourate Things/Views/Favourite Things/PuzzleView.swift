@@ -14,9 +14,7 @@ struct PuzzleView: View {
     var body: some View {
         ScrollView {
             VStack (alignment: .leading) {
-                Image("Puzzle")
-                    .resizable()
-                    .scaledToFit()
+                PhotoCaptionView(photo: "Puzzle", caption: "The lake in LCS is beautiful.", credit: "Photo Credit: Evelyn")
                 
                 Text("Last year, Aniece, Alvina, Daisy and I finished a 1000 pieces of puzzle, which costed us only 7 days. At that time, we were so keen to puzzle. Once we have time, we all went to library for the puzzle. ")
                     .padding()

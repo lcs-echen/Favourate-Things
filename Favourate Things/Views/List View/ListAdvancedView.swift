@@ -16,8 +16,8 @@ struct ListAdvancedView: View {
         HStack {
             Image(photo)
                 .resizable()
-                .scaledToFit()
-                .frame(width: 60, height: 50, alignment: .center)
+                .scaledToFill()
+                .frame(width: 50, height: 50, alignment: .center)
                 .clipped()
             VStack(alignment: .leading){
                 Text(title)

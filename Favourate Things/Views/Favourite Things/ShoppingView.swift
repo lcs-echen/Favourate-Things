@@ -11,7 +11,7 @@ struct ShoppingView: View {
     var body: some View {
         ScrollView {
             VStack (alignment: .leading) {
-                PhotoCaptionView(photo: "Shopping", caption: "The lake in LCS is beautiful.", credit: "Photo Credit: Evelyn")
+                PhotoCaptionView(photo: "Shopping", caption: "Shopping is my favourite thing to do during breaks!", credit: "Photo Credit: Evelyn")
                 
                 Text("During some long breaks, I went back to my rented house in Markham with my mom. We often have a day to go shopping in the Markham mall.Some clothes shops were really good, like HM and Zara.")
                     .padding()

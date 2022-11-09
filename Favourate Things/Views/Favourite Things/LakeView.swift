@@ -14,9 +14,9 @@ struct LakeView: View {
     var body: some View {
         ScrollView {
             VStack (alignment: .leading) {
-                PhotoCaptionView(photo: "Lake", caption: "The lake in LCS is beautiful.", credit: "Photo Credit: Evelyn")
+                PhotoCaptionView(photo: "Lake", caption: "A fascinating and engrossing sunset in LCS", credit: "Photo Credit: Evelyn")
                 
-                Text("The sunset in Lakefield College School is so beautiful!")
+                Text("The sunset in Lakefield College School is so beautiful! The sky and the reflection in the water mixed together just like a water-colour painting. Every day I walked by the lake, I will always took a picture to appreciate the fascinating scenery!")
                     .padding()
                 
                 Spacer()

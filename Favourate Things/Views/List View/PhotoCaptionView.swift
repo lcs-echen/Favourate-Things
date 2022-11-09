@@ -22,15 +22,20 @@ struct PhotoCaptionView: View {
                 Text(caption)
                     .font(.caption)
                     .bold()
+                    .frame(maxWidth: .infinity)
+                    .multilineTextAlignment(.leading)
+                    
                 Text(credit)
                     .font(.caption)
                     .italic()
+                    .frame(maxWidth: .infinity)
             }
         }
     }
 }
+
 struct PhotoCaptionPreviews: PreviewProvider {
     static var previews: some View {
-            PhotoCaptionView(photo:"Lake", caption: "Lake is beautiful in LCS. ", credit: "Evelyn")
+            PhotoCaptionView(photo:"Lake", caption: "Lake is beautiful in LCS. ", credit: "Photo Creadit: Taken by Evelyn")
     }
 }

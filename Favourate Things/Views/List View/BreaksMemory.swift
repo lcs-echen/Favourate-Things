@@ -13,13 +13,13 @@ struct BreaksMemoryView: View {
             NavigationLink(destination: {
                 WinterView()
             }, label: {
-                Text("Winter")
+                ListAdvancedView(photo: "Snowman", title: "Winter", caption: "Lake in LCS is wonderful")
             })
             
             NavigationLink(destination: {
                 ShoppingView()
             }, label: {
-                Text("Shopping")
+                ListAdvancedView(photo: "Shopping", title: "Shopping", caption: "Lake in LCS is wonderful")
             })
             
         }

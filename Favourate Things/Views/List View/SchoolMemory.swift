@@ -13,31 +13,31 @@ struct SchoolMemoryView: View {
             NavigationLink(destination: {
                 LakeView()
             }, label: {
-                Text("Lake")
+                ListAdvancedView(photo: "Lake", title: "Lake", caption: "The waterfront in LCS is fascinating!")
             })
             
             NavigationLink(destination: {
                 FoodView()
             }, label: {
-                Text("Food")
+                ListAdvancedView(photo: "Pudding", title: "Food", caption: "Pudding is my favourite and alos the first snack I cooked.")
             })
             
             NavigationLink(destination: {
                 SchoolLifeView()
             }, label: {
-                Text("School Life")
+                ListAdvancedView(photo: "SchoolLife", title: "School Life", caption: "Coming from China, I've encountered lots of problems and I also had a wonderful year.")
             })
             
             NavigationLink(destination: {
                 PuzzleView()
             }, label: {
-                Text("Puzzle")
+                ListAdvancedView(photo: "Puzzle", title: "Puzzle", caption: "Puzzle is one of my favourite things to spend boring time. ")
             })
             
             NavigationLink(destination: {
                 ArtView()
             }, label: {
-                Text("Instrumental Performance")
+                ListAdvancedView(photo: "Art", title: "Instrumental Performance", caption: "It's my first instrumental performance on the stage as a team in my whole life!")
             })
             
         }
